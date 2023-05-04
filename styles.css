@@ -1,0 +1,90 @@
+/******************************************TAG SELECTORS******************************************/
+body {
+    background-color: #d1e5f3;
+}
+
+p {
+    text-align: justify;
+}
+
+img {
+    height: 150;
+    width: 150;
+    float: left;
+}
+
+h1 {
+    font-family:'Times New Roman', Times, serif; font-size: 40px;  
+    color: #002B5B;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h3 {
+    font-family:'Times New Roman', Times, serif; font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    text-shadow:3px 3px 3px rgb(125, 112, 245);
+}
+
+h4 {
+    font-family: 'Times New Roman', Times, serif; font-size: 15px;
+    color: black;
+    text-decoration-line: underline;
+}
+
+ul, ol, {
+    font-size: 1.5rem;
+}
+
+li {
+    line-height: 1.5;
+}
+
+table {
+    table-layout: fixed;
+    width: 75%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: white;
+    border-width: 5px;
+    width: 5%;
+}
+
+/******************************************CLASS SELECTORS******************************************/
+.p-1 {
+    color: black;
+    font-weight: bold;
+}
+
+.table1 {
+    margin-left: -150px;
+    border-spacing: 20;
+    width: 150;
+    height: 150;
+}
+
+.author-graduation {
+    margin-block-start: auto;
+}
+
+.child-link {
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/******************************************ID SELECTORS******************************************/
+#author-name {
+    float: left;
+    margin-left: -325px;   
+}
